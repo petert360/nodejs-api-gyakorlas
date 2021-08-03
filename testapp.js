@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/kata', (req, res, next) => {
+app.get('/test', (req, res, next) => {
     res.send('hello')
     console.log('ABC');
 });
